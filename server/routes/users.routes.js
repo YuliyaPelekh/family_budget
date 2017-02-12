@@ -13,9 +13,11 @@ function signUser(){
 
 }
 
-function getUsers(){
-
+function getUsers(req, res){
+	res.send('Hello Yuliya');
+   
 }
+
 router.get('/', getUsers);
 
 //routes

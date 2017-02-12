@@ -9,6 +9,8 @@ var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
 var login_component_1 = require("./components/login.component");
+var http_1 = require("@angular/http");
+var material_1 = require("@angular/material");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -18,7 +20,10 @@ AppModule = __decorate([
     core_1.NgModule({
         imports: [
             platform_browser_1.BrowserModule,
-            forms_1.FormsModule
+            forms_1.FormsModule,
+            http_1.HttpModule,
+            http_1.JsonpModule,
+            material_1.MaterialModule.forRoot()
         ],
         declarations: [
             login_component_1.Login

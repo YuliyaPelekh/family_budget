@@ -27,6 +27,7 @@
     'router',
     'router-deprecated',
     'upgrade',
+    'material'
   ];
   // Individual files (~300 requests):
   function packIndex(pkgName) {
