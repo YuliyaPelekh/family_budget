@@ -1,13 +1,7 @@
 
-<md-grid-list cols="4" rowHeight="500px">
-  <md-grid-tile colspan="1"></md-grid-tile>
-  <md-grid-tile colspan="2">
-    <md-card class="full-width">
-        <md-card-header>
-           <md-card-title>
-    			<h3>Please sign in</h3>
-           </md-card-title>
-  		</md-card-header>
+<div class="login-form">
+    <md-card class="login-form_container">
+    		<h3 class='login-form-header'>Please sign in</h3>
   		<md-card-content>
   			<form>
   			   <p>
@@ -22,10 +16,9 @@
     			</p>
     		</form>
   		</md-card-content>
-  		<md-card-actions>
-    		<button md-button>Sign In</button>
+  		<md-card-actions class='login-form_actions'>
+        <a routerLink="/register" routerLinkActive="active" class="login-form-register-link">Register</a>
+    		<button md-button class="login-form_button">Sign In</button>
   		</md-card-actions>
   	</md-card>
-  </md-grid-tile>
-  <md-grid-tile colspan="1"></md-grid-tile>
-</md-grid-list>
+</div>

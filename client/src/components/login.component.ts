@@ -3,8 +3,8 @@ import { UserService } from '../services/user.service';
 
 @Component({
    selector: 'login',
-   templateUrl: '../tpl/login-form.html',
-   styleUrls: ['../css/login.css'],
+   templateUrl: './tpl/login-form.html',
+   styleUrls: ['./css/login.css'],
    providers: [UserService]
 })
 

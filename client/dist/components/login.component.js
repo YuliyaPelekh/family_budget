@@ -31,8 +31,8 @@ var Login = (function () {
 Login = __decorate([
     core_1.Component({
         selector: 'login',
-        templateUrl: '../tpl/login-form.html',
-        styleUrls: ['../css/login.css'],
+        templateUrl: './tpl/login-form.html',
+        styleUrls: ['./css/login.css'],
         providers: [user_service_1.UserService]
     }),
     __metadata("design:paramtypes", [user_service_1.UserService])

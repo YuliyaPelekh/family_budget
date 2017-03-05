@@ -1,5 +1,10 @@
 
+html, body, main{
+	height: 100%;
+}
+
 body {
- font-family: Arial;
- background-color: lightblue;
+ 	font-family: Arial;
+ 	color: #6b6a6a;
+ 	background-color: lightblue;
  }
